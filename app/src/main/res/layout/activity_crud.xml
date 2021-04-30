@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crud">
+
+    <TextView
+        android:id="@+id/textPleaseEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please, enter the student's details!"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="18dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textPleaseEnter"
+        android:paddingTop="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/nameLabel"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/surnameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surname"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText_name"
+        android:paddingTop="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/surnameLabel"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/gradeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText_surname"
+        android:paddingTop="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/gradeLabel"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/idLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText_grade"
+        android:paddingTop="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/idLabel"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add grade"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText_id"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnAdd"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnView"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnUpdate"/>
+
+
+
+
+</RelativeLayout>
